@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Lunasima:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --blue:rgb(13, 142, 206);
+    --white:#fff;
+    --light:#f3e9e9;
+    --lightblue:#3b88ae;
+    --border:#75cefb;
+    --darkblue:#0c0129;
+}
+.bg-image{
+    height: 100vh;
+    width: 100%;
+    background:url(images/background.png) no-repeat center center;
+    background-size:cover;
+}
+.nav-bar{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo{
+    color: white;
+}
+.quote-btn{
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: var(--blue);
+    border-radius: 0.6rem;
+}
+.main{
+    display:flex;
+    justify-content: center;
+    gap: 13rem;
+    justify-items: center;
+    margin-top: 2rem;
+
+}
+.content1{
+    width: 25rem;
+    margin-top: 4rem;
+}
+.content2 {
+   background-color: var(--white);
+    border-radius: 0.5rem;
+    width: min-content;
+    height: min-content;
+}
+.content1>p{
+    font-family: 'Lunasima', sans-serif;
+      font-size: 3rem;
+      color: #fff;
+}
+.content1>h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+.btns{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.btn1{
+    background-color: var(--blue);
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+}
+.btn2{
+    border: 0.1rem solid #fff;
+    padding:1rem 2rem ;
+    border-radius: 3rem;
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+}
+.submain{
+    width: 15rem;
+}
+.content2{
+    padding: 1rem 2rem;
+}
+.submain>h2{
+    text-align: center;
+}
+form{
+    margin-top: 2rem;
+}
+input,select{
+    width: 100%;
+    border: none;
+    height: 2rem;
+    margin-bottom: 1rem;
+    background-color: var(--light );
+    outline: none;
+
+}
+.name,.email,.department,.time{
+    margin-bottom: 1rem;
+}
+select{
+    text-align: center;
+}
+.appointment{
+    color: var(--light);
+    background-color: var(--blue);
+    text-align: center;
+    padding: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+.name,.department,.email{
+    font-family: 'Open Sans', sans-serif;
+}
+.main2{
+    text-align: center;
+}
+.main2-sub{
+    display: block;
+    width: 35rem;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.main2>h2{
+    font-family: 'Poppins', sans-serif;    
+}
+.item{
+    width: 19rem;
+    background-color: var(--white);
+    height: min-content;
+    border: 0.5px solid var(--border);  
+}
+.main3{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.emergency-sub{
+    width: 100%;
+    height: 10rem;
+    background-color: var(--lightblue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.pic1{
+    background: url(images/#user.1.png);
+    width: 3rem;
+    height: 2rem;
+    background-color: #fff;
+    border-radius: full;
+}
+.lists>ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color:var(--white);
+    margin: 0;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+   
+}
+.learn-more{
+    margin-left: 2rem;
+    color: var(--blue);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+    
+}
+.emergency,.emergency-sub{
+    border-radius: 0.5rem;
+}
+.second-content{
+    height: 90vh;
+    width: 100%;
+}
+.third-content{
+    width: 100%;
+    height: 80vh;
+    background-color: var(--light);
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.rate{
+    width: 16rem;
+    border: 0.1rem solid var(--light);
+    height: min-content;
+    padding: 2rem;
+    background-color: var(--white);
+
+}
+.profile-pic{
+    background: url(images/user-profile.png) center center no-repeat;
+    background-size:cover;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    border: 0.1rem solid var(--light);
+} 
+.faq>h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}  
+.faq-sub{
+    display: block;
+    margin: auto;
+    width: 35rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.fourth-sub{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.fourth-items{
+    width: 15rem;
+    height: min-content;
+    border: 0.1rem solid var(--light);
+}
+.fifth-content{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.fifth-sub{
+    display: block;
+    margin: auto;
+    width: 35rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.sixth-content{
+    display: flex;
+    justify-content: center;
+    gap: 0.1rem;
+    
+}
+.card1,.card3{
+    width: 18rem;
+    height: min-content;
+    /* background-color:#0d8ece; */
+    position: relative;
+    top: 2rem;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--blue);
+}
+.card2{
+    width: 18rem;
+    height: 40rem;
+    background-color: var(--border);
+    border-radius: 1rem;
+    border: 0.1rem solid var(--blue);
+    background-color: var(--darkblue);
+    color: var(--white);
+   
+}
+.card1-list>ul{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+
+}
+.card1>h2,.card3>h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.card1>p,.card3>p{
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.card1-sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue);
+}
+.card1-sub>h2{
+    font-weight: 600;
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+}
+.card1-sub1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--blue);  
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.try{
+    width: 10rem;
+    text-align: center;
+    background-color: var(--blue);
+    display: block;
+    margin: auto;
+    border-radius: 0.3rem;
+    height: min-content;
+}
+.try>h3{
+    padding: 0.6rem;
+    color: var(--white);
+    font-size: 0.7rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.card2-list>ul {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+}
+.card2>h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card2>p {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.seventh-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    width: 100%;
+    height: 20rem ;
+    background-color: var(--darkblue);
+}
+.seven-sub{
+    width: 25rem;
+    color: var(--white);
+}
+.sub1-content>input{
+    width: 10rem;
+    height: 100%;
+}
+.sub1{
+    display: flex;
+    background-color: var(--blue);
+    width:17rem;
+    height: min-content;
+    border: 0.1rem solid var(--light);
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+}
+.Subscribe{
+    display: block;
+    margin: auto;
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+}
+.seven-sub>h2{
+    font-family: 'Poppins', sans-serif;
+}
+.seven-sub>p{
+    font-family: 'Montserrat', sans-serif;
+}
+.eight-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    margin-top: 3rem;
+}
+.eight1>ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.eight1>h3{
+    padding-left: 2.4rem;
+    font-family: 'Poppins', sans-serif;
+}
+.touch{
+    font-family: 'Poppins', sans-serif;
+}
+.eight1>p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+
